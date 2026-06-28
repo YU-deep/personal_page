@@ -134,7 +134,7 @@ body.theme-luka .theme-toggle:hover {
 
 body.theme-luka .wrapper {
   width: 100%;
-  max-width: 1120px;
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -147,8 +147,8 @@ body.theme-luka .sidebar {
   flex-shrink: 0;
   position: fixed;
   top: 60px;
-  left: calc(50% - 560px);
-  height: calc(100vh - 60px);
+  left: calc(45% - 560px);
+  height: calc(100vh - 40px);
   overflow-y: auto;
   text-align: center;
   box-sizing: border-box;
@@ -247,8 +247,8 @@ body.theme-luka .visitor-card-body {
 body.theme-luka .content {
   flex: 1;
   min-width: 0;
-  margin-left: 320px;
-  padding: 120px 40px 80px 60px;
+  margin-left: 440px;
+  padding: 120px 10px 80px 10px;
 }
 
 body.theme-luka .section {
@@ -347,7 +347,7 @@ body.theme-luka .exp-detail {
 }
 
 body.theme-luka .exp-period {
-  font-size: 13px;
+  font-size: 16px;
   color: var(--luka-accent);
   font-weight: 500;
 }
@@ -532,3 +532,5 @@ body.theme-luka strong {
   margin-top: 16px;
   padding-top: 16px;
 }
+
+
